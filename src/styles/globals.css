@@ -91,3 +91,10 @@ a {
     color-scheme: dark;
   }
 }
+tr{
+  border-bottom: 1px solid rgba(120, 171, 229, 0.3);
+}
+tr:hover {
+  cursor: pointer;
+  background-color: rgba(112, 106, 225, 0.8);
+}

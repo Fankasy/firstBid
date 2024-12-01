@@ -1,5 +1,7 @@
 .navBlack {
     background-color: #6c7ce6;
+    padding-left: 18px;
+    padding-right: 50px;
 }
 .navText {
     font-size: 25px;
@@ -13,6 +15,7 @@
     color: #6c7ce6 !important;
     border-radius: 20px;
     padding: 4px 15px;
+    font-weight: 600;
     border: none;
 }
 .navBtn:hover {
