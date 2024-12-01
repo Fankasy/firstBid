@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}> </div>
 
-      <div className={styles.center}>
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src={NearLogo}
@@ -32,7 +32,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <Cards />
-      </div>
+      </div> */}
     </main>
   );
 }
