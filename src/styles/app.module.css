@@ -1,8 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   padding: 30px;
   min-height: 100vh;
 }
@@ -225,4 +223,14 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.hotTrend {
+  font-size: 27px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 0;
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
