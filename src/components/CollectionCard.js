@@ -19,7 +19,37 @@ const CollectionCard = ({card}) => {
 				</div>
 			</div>
 			<div className={`${styles.bottomPart}`}>
-				<div></div>
+				<div className={`${styles.row}`}>
+					<div>Floor</div>
+					<div className={`${styles.coin}`}>
+						<div>{card.floor}</div>
+						<span><Image src="/near-theme.svg" width={11} height={11}/></span>
+					</div>
+				</div>
+				<div className={`${styles.row} ${styles.location}`}>
+					<div>Total Volumn</div>
+					<div className={`${styles.coin}`}>
+						<div>{card.total}</div>
+						<span><Image src="/near-theme.svg" width={11} height={11}/></span>
+					</div>
+				</div>
+				<div className={`${styles.row} ${styles.location}`}>
+					<div>Vol.Change</div>
+					<div>---</div>
+				</div>
+				<div className={`${styles.bottomFooter}`}>
+					<div className={`${styles.leftPart}`}>
+						<div>{card.items}</div>
+						<div className={`${styles.items}`}>Items</div>
+					</div>
+					<div className={`${styles.ownerPart}`}>
+						<div>{card.owners}</div>
+						<div className={`${styles.items}`}>Owner</div>
+					</div>
+					<div className={`${styles.corner}`}>
+						<Image src="/more.svg" width={15} height={15}/>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

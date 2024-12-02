@@ -45,7 +45,7 @@ export const fakeCards = () => {
 			owner: "ogues-genesis.nfts.fewandfar.near",
 			floor: 4,
 			total: 207.7,
-			itmes: 1109,
+			items: 1109,
 			owners: 232,
 		},
 		{
@@ -54,7 +54,7 @@ export const fakeCards = () => {
 			owner: "connoisseur_dane.near",
 			floor: 0.05,
 			total: 24.4,
-			itmes: 123,
+			items: 123,
 			owners: 77,
 		}, {
 			img: "/images/img_3.png",
@@ -62,7 +62,7 @@ export const fakeCards = () => {
 			owner: "goner.near",
 			floor: 0.5,
 			total: 386.29,
-			itmes: 242,
+			items: 242,
 			owners: 99,
 		}, {
 			img: "/images/img_4.png",
@@ -70,7 +70,7 @@ export const fakeCards = () => {
 			owner: "ninelives.near",
 			floor: 0.6,
 			total: 548.83,
-			itmes: 330,
+			items: 330,
 			owners: 19,
 		}, {
 			img: "/images/img_5.png",
@@ -78,7 +78,7 @@ export const fakeCards = () => {
 			owner: "pixxypic.near",
 			floor: 0.25,
 			total: 49.08,
-			itmes: 562,
+			items: 562,
 			owners: 224,
 		},
 		{
@@ -87,7 +87,7 @@ export const fakeCards = () => {
 			owner: "nft.pumpopoly.near",
 			floor: 4,
 			total: 189,
-			itmes: 319,
+			items: 319,
 			owners: 51,
 		},
 	]
