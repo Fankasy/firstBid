@@ -1,15 +1,21 @@
 import React from 'react'
 import styles from '@/styles/collection.module.css'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const CollectionCard = ({card}) => {
+	const router = useRouter()
+	const handleClick = () => {
+		router.push('/info')
+	}
 	return (
-		<div className={`${styles.collectionCard}`}>
+		<div className={`${styles.collectionCard}`} onClick={handleClick}>
 			<div className={`${styles.upperPart}`}>
 				<Image 
 					src={card.img}
 					width={208}
 					height={192}
+					alt="#"
 					className={`${styles.img}`}
 				/>
 				<div className={`${styles.cover}`}></div>
@@ -23,14 +29,14 @@ const CollectionCard = ({card}) => {
 					<div>Floor</div>
 					<div className={`${styles.coin}`}>
 						<div>{card.floor}</div>
-						<span><Image src="/near-theme.svg" width={11} height={11}/></span>
+						<span><Image src="/near-theme.svg" width={11} height={11} alt="#"/></span>
 					</div>
 				</div>
 				<div className={`${styles.row} ${styles.location}`}>
 					<div>Total Volumn</div>
 					<div className={`${styles.coin}`}>
 						<div>{card.total}</div>
-						<span><Image src="/near-theme.svg" width={11} height={11}/></span>
+						<span><Image src="/near-theme.svg" width={11} height={11} alt="#"/></span>
 					</div>
 				</div>
 				<div className={`${styles.row} ${styles.location}`}>
@@ -47,7 +53,7 @@ const CollectionCard = ({card}) => {
 						<div className={`${styles.items}`}>Owner</div>
 					</div>
 					<div className={`${styles.corner}`}>
-						<Image src="/more.svg" width={15} height={15}/>
+						<Image src="/more.svg" width={15} height={15} alt="#"/>
 					</div>
 				</div>
 			</div>
